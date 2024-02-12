@@ -5,8 +5,7 @@ import ReactDOM from 'react-dom/client';
 
 import { App } from 'App.tsx';
 
-import './18n';
-import '@mantine/core/styles.css';
+import 'i18n/18n';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <Suspense fallback={<div>Loading...</div>}>
